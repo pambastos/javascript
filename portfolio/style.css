@@ -1,0 +1,66 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    line-height: 150%;
+    font-size: 20px;
+    background-color: rgb(146, 210, 226);
+  }
+  
+  .cor-rosa {
+    color: rgb(224, 99, 119);
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  li , p {
+  
+    color: rgb(71, 85, 80);
+  }
+  
+  #minha_foto {
+    left: 650px;
+    top: 70px;
+    border-radius: 50%;
+    padding: 20px 30px 40px;
+  }
+  
+  .botao {
+    background-color: rgb(249, 213, 229);
+    margin: 3%;
+    border: rgb(98, 37, 105);
+    color: rgb(98, 37, 105);
+    padding: 11px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #rodape {
+    color: rgb(150, 43, 75);
+  }
+  
+  .header {
+    color: rgb(224, 99, 119);
+  }
+  
+  #licoes_aprendidas {
+    color: rgb(224, 99, 119);
+  }
+  #titulo {
+    color: rgb(220, 99, 224);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+  }
+  #cabecalho {
+    text-align: center;
+    background-color: rgb(226, 43, 134);
+    width: auto;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 30px;
+  }
