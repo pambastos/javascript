@@ -1,1 +1,1 @@
-console.log("Olá");
+document.getElementById("teste")
