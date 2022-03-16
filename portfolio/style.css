@@ -21,6 +21,7 @@ body {
   }
   
   #minha_foto {
+    margin-left: 40%;
     left: 650px;
     top: 70px;
     border-radius: 50%;
@@ -28,7 +29,6 @@ body {
   }
   
   .botao {
-    text-align: center;
     background-color: rgb(249, 213, 229);
     margin: 3%;
     border: rgb(98, 37, 105);
@@ -43,6 +43,7 @@ body {
   }
   
   .header {
+    margin-left: 36%; 
     color: rgb(224, 99, 119);
   }
   
