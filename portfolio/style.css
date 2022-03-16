@@ -6,6 +6,7 @@ body {
   }
   
   .cor-rosa {
+    text-align: center;
     color: rgb(224, 99, 119);
     margin: auto;
   }
@@ -27,6 +28,7 @@ body {
   }
   
   .botao {
+    text-align: center;
     background-color: rgb(249, 213, 229);
     margin: 3%;
     border: rgb(98, 37, 105);
@@ -48,6 +50,7 @@ body {
     color: rgb(224, 99, 119);
   }
   #titulo {
+    margin-left: 40%;
     color: rgb(220, 99, 224);
     text-align: center;
     position: fixed;
@@ -63,4 +66,14 @@ body {
     right: 0;
     left: 0;
     margin: 0 30px;
+  }
+
+  .primeiropa {
+   text-align: center;
+
+  }
+  
+  #paragrafofinal {
+   text-align: center;
+
   }
