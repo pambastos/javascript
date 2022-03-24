@@ -16,12 +16,18 @@ elementoOndeVoceEsta.nextElementSibling;
 
 pai.lastElementChild.previousElementSibling;
 
-
-
-var irmaoDoElementoOndeVoceEsta = document.createElement('section');
-irmaoDoElementoOndeVoceEsta.id = "irmaoDoElementoOndeVoceEsta";
+let irmaoDoElementoOndeVoceEsta = document.createElement('section');
+irmaoDoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
 pai.appendChild(irmaoDoElementoOndeVoceEsta);
 
+let filhoDoElementoOndeVoceEsta = document.createElement('section');
+filhoDoElementoOndeVoceEsta.id = 'filhoDoElementoOndeVoceEsta';
+elementoOndeVoceEsta.appendChild(filhoDoElementoOndeVoceEsta);
+
+let primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+let filhoDoPrimeiroFilhoDoFilho = document.createElement('section');
+filhoDoPrimeiroFilhoDoFilho.id = 'filhoDoPrimeiroFilhoDoFilho';
+primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilho);
 
 
 
