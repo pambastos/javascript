@@ -33,7 +33,14 @@ filhoDoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
 
 
 
+pai.removeChild(primeiroFilho);
+pai.removeChild(terceiroFilho);
+pai.removeChild(quartoEUltimoFilho);
+elementoOndeVoceEsta.removeChild(segundoEUltimoFilhoDoFilho);
 
+
+
+    
 
 
 
