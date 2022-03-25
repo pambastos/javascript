@@ -29,6 +29,9 @@ let filhoDoPrimeiroFilhoDoFilho = document.createElement('section');
 filhoDoPrimeiroFilhoDoFilho.id = 'filhoDoPrimeiroFilhoDoFilho';
 primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilho);
 
+filhoDoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+
+
 
 
 
