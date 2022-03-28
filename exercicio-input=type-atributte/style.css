@@ -1,0 +1,37 @@
+body {
+  background-color: lightsteelblue;
+}
+
+#title {
+  color: slategray;
+}
+
+.rodape {
+  color: grey;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 40%;
+}
+
+.email {
+  min-height: 10%;
+  color: blue;
+  width: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.senha {
+  padding-top: 20px;
+  color: blue;
+  width: 10px;
+  margin-top: 10px;
+}
+
+.checkbox {
+  margin-top: 10px;
+  color: cornflowerblue;
+}
+
+.botao {
+  margin-top: 10px;
+}
