@@ -1,11 +1,35 @@
-#title{
-    color:aliceblue;
-    text-align: center;
-    width:200px;
-    margin-left: 5%;
-    background-color: darkgrey;
+#title {
+  color: aliceblue;
+  text-align: center;
+  width: 200px;
+  margin-left: 5%;
+  background-color: darkgrey;
 }
 
-body{
-background-color: gray;    
+body {
+  background-color: gray;
+}
+
+#nome-completo,
+#input-email,
+#input-estado,
+#foto-perfil,
+#text-area1,
+#input-senha 
+#input-estado{
+  height: 20px;
+  width: 300px;
+  padding: 3px;
+  margin-top: 3%;
+}
+
+.nome,
+.email,
+.estado-onde-voce-mora,
+.foto,
+.comidas-favoritas,
+.area-do-texto,
+.digitar-senha,
+.checkbox {
+  color: bisque;
 }
