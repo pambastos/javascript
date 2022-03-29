@@ -1,8 +1,8 @@
-#title {
+#title , #botao {
   color: aliceblue;
+  margin-left: 45%;
   text-align: center;
   width: 200px;
-  margin-left: 5%;
   background-color: darkgrey;
 }
 
@@ -12,11 +12,9 @@ body {
 
 #nome-completo,
 #input-email,
-#input-estado,
 #foto-perfil,
 #text-area1,
-#input-senha 
-#input-estado{
+#input-senha #input-estado {
   height: 20px;
   width: 300px;
   padding: 3px;
@@ -32,4 +30,11 @@ body {
 .digitar-senha,
 .checkbox {
   color: bisque;
+  text-align: center;
+  
 }
+#botao{
+  margin-right: 20%;  
+}
+
+ 
