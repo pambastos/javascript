@@ -1,0 +1,41 @@
+.box {
+  color: #9069ef;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.box-container {
+  background-color: #0fa36b;
+  display: flex;
+  /* (avisa que será usado o flexbox) */
+
+  /* flex-direction: row; */
+  /* (elementos em linha reta, um ao lado do outro) */
+
+ /* flex-direction: column; */
+ /* (elementos um embaixo do outro, como se fosse uma coluna) */
+
+  /* flex-direction: row-reverse; */
+  /* (elementos em linha, porém em ordem invertida, do ultimo para o primeiro) */
+
+  /* flex-direction: column-reverse; */
+  /* (elementos em coluna, porém em ordem invertida, do último para o primeiro) */
+
+/* 
+  /* flex-wrap: wrap;
+  (alinha os elementos um ao lado do outro, SEM ESTOURAR O TAMANHO DO CONTAINER,quando chega ao fim, desce para a próxima linha) */
+
+  /* flex-wrap: nowrap; */
+  /* (alinha os elementos lado a lado MESMO QUE ESTOURE O TAMANHO DO CONTAINER) */
+
+
+  flex-flow: row wrap;
+  /* (seleciona o flex direction e o flex wrap ao mesmo tempo, no caso acima, flex direction row e flax wrap wrap) */
+
+  
+}
