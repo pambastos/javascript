@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Justify Content</title>
+    <style>
+      .box {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 20%;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        /* justify-content: center;
+        /* (alinha os itens no centro da div) */
+
+        /* justify-content: flex-start; 
+        (alinha os itens a partir do início da div) */
+
+        /* justify-content: flex-end;
+        (alinha os itens a partir do fim da div) */
+
+      /* justify-content: baseline;
+      (alinha os itens a partir do conteúdo.Funciona bem para itens de tamanhos diferentes.) */
+
+      /* justify-content: space-around;
+      (alinha os itens com a mesma distancia no meio deles, mas uma distancia menor nas bordas)
+        */
+     
+        /* justify-content: space-between;
+        (alinha os itens com a mesma distancia entre eles, porém bem junto as bordas) */
+
+
+        justify-content: space-evenly;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </body>
+</html>
