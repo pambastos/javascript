@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX - ALIGN SELF</title>
+    <style>
+      .container {
+        border: 1px solid black;
+        display: flex;
+        height: 300px;
+        margin: auto;
+        width: 500px;
+      }
+
+      .keep {
+        align-self: baseline;
+        background-color: #FAA488;
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        list-style: none;
+        font-size:30px;
+      }
+
+      .change {
+        /* Altere a propriedade align-self. */
+        /* align-self: center;
+        (pega o elemento e centraliza) */
+        /* align-self: flex-start;
+        (pela o elemento e joga para o topo da tela) */
+        /* align-self: flex-end;
+        (pega o elemento e joga na parte inferior da tela) */
+         /* align-self:stretch ;
+         (pela o elemento e estica ele) */
+        /* align-self:baseline;
+        (alinha os elementos de acordo com o seu conteúdo, mesmo que tenham tamanhos diferentes) */
+
+
+        background-color: #FBD26A;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        list-style: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul class="container">
+      <li class="keep">REFERÊNCIA</li>
+      <li class="change">ELEMENTO TESTE</li>
+      <li class="keep">REFERÊNCIA</li>
+    </ul>
+  </body>
+</html>
